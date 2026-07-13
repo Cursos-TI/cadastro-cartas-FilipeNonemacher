@@ -129,7 +129,22 @@ int main() {
     printf("\n====================================");
     printf("\n");
 
+    printf("\n===== Comparação de Cartas (Atributo População) =====");
+    if(populacao1 > populacao2){
+        printf("\nCidade 1 Tem Maior População (%s): %ld", cidade1, populacao1);
+    }
+    else{
+        printf("\nCidade 2 Tem Maior População (%s): %ld", cidade2, populacao2);
+    }
+    printf("\n====================================");
 
+    if(populacao1 > populacao2){
+        printf("\nResultado: %s venceu!", cidade1);
+    }
+    else{
+        printf("\nResultado: %s venceu!", cidade2);
+    }
+    printf("\n");
 
 return 0;
 } 
